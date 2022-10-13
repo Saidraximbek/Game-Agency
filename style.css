@@ -182,6 +182,7 @@ body,
 
 .porfolio--items {
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 .porfolio {

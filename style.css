@@ -5,10 +5,10 @@
 }
 
 body {
-  width: 100%;
-  height: 100%;
+  width: 1440px;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: aliceblue;
 }
 
 body,
@@ -24,6 +24,8 @@ body,
   justify-content: center;
 }
 
+
+/* NAVIGATION BAR START  */
 .nav--bar {
   padding: 40px;
   display: flex;
@@ -132,7 +134,16 @@ body,
   width: 160px;
   height: 40px;
 }
+/* NAVIGATION BAR END  */
 
+
+
+
+
+
+
+
+/* BODY PART START  */
 .info--items {
   height: 603px;
   width: 1100px;
@@ -180,6 +191,12 @@ body,
   color: #98a1bb;
 }
 
+/* BODY PART END  */
+
+
+
+
+/* BODY PART TWO START  */
 .porfolio--items {
   flex-direction: column;
   margin-bottom: 100px;
@@ -215,7 +232,12 @@ body,
 .h--five--item {
   font-size: 20px;
 }
+/* BODY PART TWO END  */
 
+
+
+
+/*Body part start three */
 .rasm {
   width: 320px;
 }
@@ -225,3 +247,165 @@ body,
   height: 50px;
   color: #98a1bb;
 }
+
+.testimonial--div {
+  display: flex;
+  align-items: center;
+  gap: 500px;
+}
+
+.logo--strelka {
+  gap: 15px;
+}
+
+.evaluation--item {
+  margin-bottom: 70px;
+}
+
+.hfive--item {
+  font-size: 48px;
+}
+
+.card--div--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.testimonial {
+  font-size: 20px;
+}
+
+.card--div--one {
+  background-color: #fff;
+  width: 460px;
+  height: 250px;
+}
+
+.card--one--child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 70px;
+}
+
+.child--div--one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lorem--ipsum {
+  font-weight: 40px;
+}
+
+.smayl--paragraph {
+  padding: 30px;
+}
+/* <!--Body part END three--> */
+
+
+
+
+
+/* !--Body part start FOUR--> */
+.team--items {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 351px;
+  height: 516px;
+  background-color: aliceblue;
+}
+
+.team--cards {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.porfolio--team {
+  color: #4857ec;
+}
+
+.team--title {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.team--name--item {
+  font-size: 24px;
+}
+
+.team--job--item {
+  font-size: 18px;
+  color: #98a1bb;
+}
+
+.view--all--team {
+  color: #4857ec;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+/* !--Body part END FOUR--> */
+
+
+
+
+
+
+
+
+/* Footer start  */
+.footer--items {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  background-color: #fff;
+  padding: 70px;
+}
+
+.mesenger--icons {
+  display: flex;
+  gap: 20px;
+}
+
+.mesengers {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer--play_ {
+  font-weight: 800;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.footer--card--titles {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer--card--description {
+  color: #aab2c8;
+  margin-bottom: 10px;
+}
+/* Footer end  */

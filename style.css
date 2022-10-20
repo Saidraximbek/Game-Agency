@@ -24,12 +24,20 @@ body,
   justify-content: center;
 }
 
+button{
+  border-radius: 5px;
+  border: 0;
+}
 
 /* NAVIGATION BAR START  */
 .nav--bar {
   padding: 40px;
   display: flex;
   justify-content: space-between;
+}
+
+.nav--bar--items{
+  text-decoration: none;
 }
 
 .navbar--item {
